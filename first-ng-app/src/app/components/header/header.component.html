@@ -1,6 +1,8 @@
 <header>
     <nav>
-        {{ title() }}
-        {{ title2 }}
+        <span routerLink="/">{{ title() }}</span>
+        <ul>
+            <li routerLink="/todos">Todos</li>    
+        </ul>
     </nav>
 </header>
