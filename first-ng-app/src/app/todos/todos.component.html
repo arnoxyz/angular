@@ -1,1 +1,3 @@
-<p>{{ todoItems() }}</p>
+@for (todo of todoIems(); track todo.id) {
+    <p>{{ todo.title }}</p>
+}
